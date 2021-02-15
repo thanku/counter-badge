@@ -1,0 +1,26 @@
+{
+  "name": "@thanku/counter-badge",
+  "version": "0.1.0",
+  "description": "The ThankU Counter Badge is a Web Component that requests and displays the number of sent and collected ThankUs of a specific user on www.thanku.social",
+  "main": "lib/counter-badge.js",
+  "module": "lib/counter-badge.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx live-server ."
+  },
+  "files": [
+    "lib/counter-badge.js"
+  ],
+  "keywords": [
+    "thanku",
+    "widget",
+    "web component",
+    "badge",
+    "counter"
+  ],
+  "author": "ThankU (thxto gUG)",
+  "homepage": "https://thanku.github.io/counter-badge/",
+  "repository": "github:thanku/counter-badge",
+  "license": "MIT"
+}
