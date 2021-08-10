@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>ThankU Counter Badge - Test</title>
+    <link href="https://www.thanku.social/fonts/exo.css" rel="stylesheet" />
+    <link
+      href="https://www.thanku.social/fonts/roboto-mono.css"
+      rel="stylesheet"
+    />
+    <script type="module" src="./lib/counter-badge.js"></script>
+  </head>
+  <body>
+    <h1>ThankU Counter Badge - Test</h1>
+
+    <thanku-counter-badge slug="martin" lang="de">
+      <a href="https://thx.to/:martin/de">Besuche meine ThankU-Seite</a>
+    </thanku-counter-badge>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const elem = document.createElement("thanku-counter-badge");
+        elem.setAttribute("slug", "kinga");
+        elem.duration = 5000; // only works when web component is already loaded
+        document.body.appendChild(elem);
+        setTimeout(() => {
+          elem.duration = 500;
+        }, 10000);
+      });
+    </script>
+  </body>
+</html>
