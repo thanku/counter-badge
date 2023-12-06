@@ -1,6 +1,6 @@
 {
   "name": "@thanku/counter-badge",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "The ThankU Counter Badge is a Web Component that requests and displays the number of sent and collected ThankUs of a specific user on www.thanku.social",
   "main": "lib/counter-badge.js",
   "module": "lib/counter-badge.js",
